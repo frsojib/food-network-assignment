@@ -5,10 +5,14 @@ body{
 .orange-color{
     color: #fdb13f;
 }
-h1{
+#gray-color-header{
     font-weight: bold;
     font-size: 60px;
     color: #585858;
+}
+h1{
+    font-weight: bold;
+    font-size: 60px;
 }
 h2{
     color: #555353;
@@ -78,6 +82,7 @@ section{
     box-shadow: 20px 0 15px 5px rgb(218, 217, 217);
     border-radius: 20px;
     margin-bottom: 150px;
+    color: black;
 
 }
 .follower-count{
@@ -85,6 +90,7 @@ section{
     padding-bottom: 30px;
     padding-left: 10%;
     margin: 0 5% ;
+    color: black;
 }
 /* extra section */
 .indivisual-review{
@@ -104,7 +110,7 @@ section{
 }
 /* Footer section */
 #footer-section{
-    background-color: rgb(5, 0, 15);
+    background-color: rgb(17, 16, 20);
     text-align: center;
     padding-top:40px ;
     padding-bottom: 60px;
