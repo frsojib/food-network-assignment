@@ -1,3 +1,4 @@
+/* header section */
 body{
     font-family: 'Montserrat', sans-serif;
 }
@@ -42,6 +43,7 @@ section{
     padding: 25px 50px;
     border-radius: 50px;
 }
+/* about me section */
 .about-me-section{
     background-image: url(images/abut-me.jpg);
     background-repeat: no-repeat;
@@ -49,6 +51,7 @@ section{
     padding-top: 5%;
     margin-top: 5%;
 }
+/* my racipe & cart */
 #racipe{
     text-align: center;
     padding: 5% 20%;
@@ -70,6 +73,7 @@ section{
     width: 100%;
     justify-content: center;
 }
+/* follower section */
 #follower-section{
     box-shadow: 20px 0 15px 5px rgb(218, 217, 217);
     border-radius: 20px;
