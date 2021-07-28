@@ -1,0 +1,113 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.orange-color{
+    color: #fdb13f;
+}
+h1{
+    font-weight: bold;
+    font-size: 60px;
+    color: #585858;
+}
+h2{
+    color: #555353;
+    font-weight: bold;
+    font-size: 40px;
+}
+h3{
+    font-size:30px;
+    font-weight: bold;
+}
+.gray-pragraph{
+    color: #686666;
+    font-size: 20px;
+    padding-bottom: 70px;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+}
+.margin-top{
+    margin-top: 10%;
+    margin-left: 5%;
+    
+}
+.button{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-image: linear-gradient(to right,rgb(231, 169, 53),#ec3d3d);
+    padding: 25px 50px;
+    border-radius: 50px;
+}
+.about-me-section{
+    background-image: url(images/abut-me.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5%;
+    margin-top: 5%;
+}
+#racipe{
+    text-align: center;
+    padding: 5% 20%;
+}
+.racipe-section{
+    width: 100%;
+    padding-bottom: 250px;
+}
+.racipe-item{
+    width: 50%;
+    margin-right: 2%;
+    margin-left: 2%;
+    border: 10px solid rgb(255, 255, 255);
+    box-shadow: 20px 0 15px 5px rgb(218, 217, 217);
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+.racipe-item img{
+    width: 100%;
+    justify-content: center;
+}
+#follower-section{
+    box-shadow: 20px 0 15px 5px rgb(218, 217, 217);
+    border-radius: 20px;
+    margin-bottom: 150px;
+
+}
+.follower-count{
+    width: 20%;
+    padding-bottom: 30px;
+    padding-left: 10%;
+    margin: 0 5% ;
+}
+/* extra section */
+.indivisual-review{
+    background-image: url(images/produit2-230x179.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    margin: 20px 20px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 10px 10px;
+    box-shadow: 10px 10px 10px gray;
+}
+.review-section{
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+    padding-bottom: 100px;
+}
+/* Footer section */
+#footer-section{
+    background-color: rgb(5, 0, 15);
+    text-align: center;
+    padding-top:40px ;
+    padding-bottom: 60px;
+    margin: 0;
+    background-size: cover;
+}
+
+#footer-pragraph{
+    color: white;
+}
